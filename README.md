@@ -1,6 +1,7 @@
 Machine Learning-Based Hydropower Forecasting Dashboard for Ethiopian Electric Power (EEP)
 
 Overview
+
 This project develops a Machine Learning-Based Hydropower Forecasting Dashboard to support operational and planning activities at Ethiopian Electric Power (EEP). Hydropower supplies approximately 90% of Ethiopia’s electricity through major plants like Gibe, GERD, Tekeze, and others. The dashboard integrates operational data from 14 hydropower plants (2013-2025) and meteorological data to forecast key variables such as reservoir water levels, actual energy production, discharge water, and min/max unit loads.
 A comprehensive data preprocessing pipeline handles date standardization, missing values, outlier mitigation using IQR capping, feature scaling, and selection to reduce multicollinearity. Multiple regression models (e.g., Gradient Boosting, Random Forest, XGBoost) are trained for multi-output forecasting. Performance is evaluated using MAE, RMSE, and R² metrics.
 The interactive Dash-based web application provides:
